@@ -12,9 +12,9 @@
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
-        {"tag": "hours",
-         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "signs and symptoms",
+         "patterns": ["What are signs and symptoms of diabetes?","Signs and symptoms", "Signs","Symptoms"],
+         "responses": ["frequent urination","rapid weight loss", "dizziness","excessive thirst"]
         },
         {"tag": "mopeds",
          "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
