@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/shiru/ChatBot/model.tflearn"
-all_model_checkpoint_paths: "/home/shiru/ChatBot/model.tflearn"
+model_checkpoint_path: "/home/shiru/PersonalProjects/DiabetesChatbot/model.tflearn"
+all_model_checkpoint_paths: "/home/shiru/PersonalProjects/DiabetesChatbot/model.tflearn"

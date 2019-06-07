@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting, how can i help?", "hey, Good to see you again", "Hi there, how can I help?","Hi","Good day it is, How can i help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Type 1",
+         "patterns": ["What is type 1?", "Type 1 Diabetes", "Tell me about type 1 diabetes", "Type 1"],
+         "responses": ["Type 1 diabetes, once known as juvenile diabetes", " In type 1 diabetes, the body does not produce insulin.","Type 1 Diabetes. Type 1 diabetes is an autoimmune disease that causes the insulin producing beta cells in the pancreas to be destroyed, preventing the body from being able to produce enough insulin to adequately regulate blood glucose levels.", "Type 1 diabetes requires lifelong treatment once it develops. The body does not produce enough insulin, and blood glucose levels remain high unless a person takes steps to manage high blood sugar. ","Type 1 diabetes, once known as juvenile diabetes or insulin-dependent diabetes, is a chronic condition in which the pancreas produces little or no insulin. Insulin is a hormone needed to allow sugar (glucose) to enter cells to produce energy.","Type 1 diabetes happens when your immune system destroys cells in your pancreas called beta cells. They're the ones that make insulin.","Type 1 diabetes (previously called insulin-dependent or juvenile diabetes) is usually diagnosed in children, teens, and young adults, but it can develop at any age","It is also known as juvinile diabetes","insulin-depedent diabetes","Type 1 diabetes is an auto-immune condition in which the immune system is activated to destroy the cells in the pancreas which produce insulin.","Type 1 diabetes is a chronic illness characterized by the body's inability to produce insulin due to the autoimmune destruction of the beta cells"," With type 1 diabetes, your pancreas does not make insulin.","Type 1 diabetes (T1D), also known as juvenile diabetes, is a form of diabetes in which very little or no insulin is produced by the pancreas."]
+        },
+        {"tag": "Type 2",
+         "patterns": ["Type 2", "Tell me about Diabetes Type 2", "Diabetes Type 2"],
+         "responses": ["Type 2 diabetes is more common than type 1 diabetes.","Uncontrolled type 2 diabetes can lead to chronically high blood glucose levels, causing several symptoms and potentially leading to serious complications.","In type 2 diabetes, your body’s cells aren’t able to respond to insulin as well as they should","Type 2 diabetes is the most common type of diabetes, accounting for around 90% of all diabetes cases. It is generally characterized by insulin resistance","Type 2 diabetes is the most common form of diabetes. If you have type 2 diabetes your body does not use insulin properly. This is called insulin resistance. At first, your pancreas makes extra insulin to make up for it.","Type 2 diabetes is a chronic condition that affects the way your body metabolizes sugar (glucose) — an important source of fuel for your body.", "Any time!", "Type 2 diabetes is a chronic condition that may be reversible with diet and lifestyle changes. "]
+        },
+        {"tag": "Type 2 Causes",
+         "patterns": [" Causes of Type 2 diabetes?", "What Causes diabetes type 2?", " Diabetes Type 2 causes"],
+         "responses": ["Areas of darkened skin, usually in the armpits and nec","Genetics can be a cause","Stress and Stress IQ hormones","Having family members with diabetes", "Being overweight","Lack of activity (sedentary behavior)", "Consuming too much sugar and processed food",""]
+        },
+        {"tag": "Type 2 Signs and Symptoms",
+         "patterns": ["What are type 2 symptoms?", "Signs of type 2 diabetes", "Symptoms of diabetes type 2", "Symptoms and signs of diabetes mellitus","What are the signs and symptoms diabetes melitus?"],
+         "responses": ["Areas of darkened skin, usually in the armpits and nec","Unintended weight loss","Slow-healing sores","A blood sugar level more than 125 when fasting or more than 200 randomly","Fatigue","Gaining or losing weight unintentionally", "Blurry vision", "Unusual odor to urine","Urinating a lot","Excess thirst"]
+        },
+        {"tag": "Type 2 Treatment",
+         "patterns": ["How to treat Diabetes Type 2?", "Treatment of Diabetes Type 2", "Diabetes Mellitus treatment", "Type 2 treatment", "Type 2 Cure"],
+         "responses": ["Healthy Eating","Weight Loss","monitoring your blood sugar", "Participate in physical Activity", "Increased Physical Activity","Bariatic Surgery - Surgeries that bypass a portion of the small intestine have more of an effect on blood sugar levels than do other weight-loss surgeries"]
+        },
+         {"tag": "Type 1 Causes",
+         "patterns": [" Causes of Type 1 diabetes?", "What Causes diabetes type 1?", " Diabetes Type 1 causes"],
+         "responses": ["Not exercing enough"," Eating lots of junk food","Different factors, including genetics and some viruses, may contribute to type 1 diabetes. Although type 1 diabetes usually appears during childhood or adolescence, it can develop in adults.", "The exact cause of type 1 diabetes is unknown. Usually, the body's own immune system — which normally fights harmful bacteria and viruses — mistakenly destroys the insulin-producing (islet, or islets of Langerhans) cells in the pancreas.","possible causes include: Genetics."," Type 1 diabetes happens when your immune system destroys cells in your pancreas called beta cells. They're the ones that make insulin.","  Type 1 diabetes happens when your immune system destroys cells in your pancreas called beta cells. They're the ones that make insulin.","Scientists think type 1 diabetes is caused by genes and environmental factors, such as viruses, that might trigger the disease.","Lifestyle choice is also a cause " ,"Leading an iresponsible lifestyle","Not eating healthy diet"]
+        },
+        {"tag": "Type 1 signs and symptoms",
+         "patterns": ["What are type 1 symptoms?", "Signs of type 1 diabetes", "Symptoms of diabetes type 1", "Symptoms and signs of juvinile diabetes","What are the signs and symptoms of insulin-dependent diabetes?"],
+         "responses": ["Untreated type 1 diabetes can cause coma.","Increased thirst, Extreme hunger and bedwetting in children who didnt previously wet the bed.","People with type 1 diabetes are more likely to get heart disease, stroke, kidney failure, high blood pressure, blindness, nerve damage and gum disease.", "Unexplained weight loss, Fatigue and weakness , Excessive thirst and hunger", "Blurred vision,"]
+        },
+          {"tag": "Type 1 treatment ",
+         "patterns": ["How to treat Diabetes Type 1?", "Treatment of Diabetes Type 1", "Juvinile Diabetes treatment", "Type 1 treatment", "Type 1 Cure"],
+         "responses": ["Taking insulin.", "Frequent blood sugar monitoring.","Exercising regularly and maintaining a healthy weight.","Carbohydrate, fat and protein counting","Eating healthy foods."]
+        },
+         {"tag": "Type 1 Prevention",
+         "patterns": ["How to prevent Type 1 Diabetes", "Type 1 Prevention", "Diabetes Type 1 prevention","Juvinile Treatment"],
+         "responses": [ "Eating healthy foods.", "Exercising regularly and maintaining a healthy weight.","Carbohydrate, fat and protein counting"]
+        },
+
+        {"tag": "diabetes signs and symptoms",
+         "patterns": ["What are signs and symptoms of diabetes?","Signs and symptoms", "Signs","Symptoms"],
+         "responses": ["frequent urination","rapid weight loss", "dizziness","excessive thirst","One of the signs is Iriitability","Excessive thirst and hunger,Frequent urination,Weight loss or gain,Fatigue,Irritabilty","Blurred Vision.Nausea,Excessive thirst and huger","The first sign of worry is excessive thirst and hunger, sweating and frequent urination","Slow Healing wounds is also one of the signs of diabetes"," Excessive thirst should be a concern for diabetes ", "Blurred Vision in older ages is also a sign","Fatigues, headaches, frequen urination, excessive thirst and hunger should ring a bell"," Unexplained weight loss while still eating a lot"," Dry mouths, sweating, fatigue and frequent urination","Type 1 and 2 diabetes (diabetes mellitus) symptoms may include increased urination, thirst, weight loss, fatigue, nausea, vomiting, skin infections, and blurred vision"]
+        },
+        {"tag": "diabetes types",
+         "patterns": ["What are signs and symptoms of diabetes?","Signs and symptoms", "Signs","Symptoms"],
+         "responses": ["Type 1 diabetes. Most common form in children.","Type 2 diabetes is the most common form in adults", "Gestational diabetes. Can occur specifically during pregnancy.","Diabetes MODY. Rare - caused by a known genetic mutation","Type 1 and type 2 diabetes both relate to the body's use of insulin, but they have different causes and treatment.","The main types of diabetes are classified as type 1 and type 2. ","There are three major types of diabetes. Type 2 diabetes is the most common diagnosis, followed by type 1 diabetes. Gestational diabetes occurs during preganancy","There are three main types of diabetes: diabetes type 1, diabetes type 2 and gestational diabetes.", "Type 1, type 2, and gestational diabetes are the main types of diabetes","There are different types of diabetes; all types are complex and serious. The three main types of diabetes are type 1, type 2 and gestational diabetes.","There are two main types of diabetes, known as Type 1 Diabetes and Type 2 Diabetes."]
+        },
+        {"tag": "diseases",
+         "patterns": ["What are signs and symptoms of diabetes?","Signs and symptoms", "Signs","Symptoms"],
+         "responses": ["heart diseases","stroke", "kidney disease","eye problems","Foot problems","Dental Disease","Nerve Damage", "Urinary Problems","Digestive Diseases","Diabetes dramatically increases the risk of various cardiovascular problems, including coronary artery disease with chest pain (angina), heart attack, stroke and narrowing of arteries (atherosclerosis). If you have diabetes, you're more likely to have heart disease or stroke. Nerve damage (neuropathy)"]
+        },
+        {"tag": "diet",
+         "patterns": ["What is the diet of a diabetes patient?","Diabetes Diet","Diet to avoid Diabetes", "Diet","Symptoms"],
+         "responses": ["Having regular mealtimes","Low-cabohydrate diet","Very-low calorie diet","balanced diet","Take more vegetables and fruits", "Cabohydrate, fat and protein counting","Eating less portions at intervals rather than a lot at once","Take insulin shots when necessary.","Avoid too much junk foods"]
+        },
+        {"tag": "defination",
+         "patterns": ["What is diabetes?","Define Diabetes", "Tell me about diabetes","Diabetes?","What's Diabetes","Do you know Diabetes?","What do you know about Diabetes?"],
+         "responses": ["Diabetes is a metabolic disorder that occurs when your blood sugar (glucose), is too high ","Diabetes is a condition that impairs the body's ability to process blood glucose, otherwise known as blood sugar", "Diabetes mellitus refers to a group of diseases that affect how your body uses blood sugar (glucose)"," Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high.", " Diabetes is a chronic condition associated with abnormally high levels of sugar (glucose) in the blood."," Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high.","Diabetes is a lifelong condition that causes a person's blood sugar level to become too high.","Diabetes is a chronic, metabolic disease characterized by elevated levels of blood glucose (or blood sugar), which leads over time to serious damage to the body", " Diabetes prevents your body from properly absorbing energy from the food you eat","Diabetes is a chronic disease that occurs when the pancreas is no longer able to make insulin, or when the body cannot make good use of the insulin.","Diabetes mellitus (DM), commonly known as diabetes, is a group of metabolic disorders characterized by high blood sugar levels over a prolonged period.", " diabetes, a lifelong condition that causes a person's blood sugar level to become too high","Diabetes is a serious complex condition which can affect the entire body", "Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. ","Diabetes is a disease in which your body either can't produce insulin or can't properly use the insulin it produces. Insulin is a hormone produced by your pancreas."]
+       }
+   ]
+}
